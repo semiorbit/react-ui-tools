@@ -1,7 +1,7 @@
 import React from 'react';
 
-function HelloWorld() {
+export const HelloWorld = () => {
     return <h1>Hello World</h1>
-}
+};
 
-export default HelloWorld;
+export const TEST_CONST = "TOOOT";

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function HelloWorld() {
+const HelloTestSection = () => {
     return (
         <section>
             <h2>Hello Test Section</h2>
@@ -9,6 +9,6 @@ function HelloWorld() {
             </p>
         </section>
     );
-}
+};
 
-export default HelloWorld;
+export default HelloTestSection;
