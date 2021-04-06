@@ -1,4 +1,4 @@
-import {ERR_CHECKING_FAILED, IN_PROGRESS, IS_VALID} from "lib/Forms/validation";
+import {ERR_CHECKING_FAILED, IN_PROGRESS, IS_VALID} from "@semiorbit/react-form-provider/validation";
 import InputAdornment from "@material-ui/core/InputAdornment";
 import DoneIcon from "@material-ui/icons/Done";
 import SyncIcon from "@material-ui/icons/Sync";
