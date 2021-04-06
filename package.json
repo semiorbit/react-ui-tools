@@ -1,6 +1,6 @@
 {
   "name": "@semiorbit/react-ui-tools",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "React-js Material-ui controls wrapper and other custom controls",
   "main": "index.js",
   "repository": {
@@ -17,7 +17,8 @@
     "build-watch": "rollup -c -w",
     "start-playground": "cd playground && npm run start",
     "i-all": "npm i && cd playground && npm i",
-    "dev": "npm-run-all --parallel build-watch"
+    "dev": "npm-run-all --parallel build-watch",
+    "v": "npm version patch --force && cd lib && npm version patch --force"
   },
   "eslintConfig": {
     "extends": [
