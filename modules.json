@@ -14,5 +14,6 @@
   "Controls/Select",
   "Controls/TextField",
 
-  "Display/Counter/Counter"
+  "Display/Counter/Counter",
+  "Display/CheckAdornment"
 ]
