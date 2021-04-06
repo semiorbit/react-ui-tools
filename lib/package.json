@@ -9,9 +9,6 @@
   },
   "author": "Ibrahim Khalil Khalbous",
   "license": "MIT",
-  "files": [
-    "./lib"
-  ],
   "scripts": {
     "build": "rollup -c",
     "build-watch": "rollup -c -w",
