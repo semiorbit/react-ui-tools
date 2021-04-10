@@ -4,7 +4,6 @@ import FormControl from "@material-ui/core/FormControl";
 import MenuItem from "@material-ui/core/MenuItem";
 import {default as MuiSelect} from "@material-ui/core/Select";
 import {FormHelperText} from "@material-ui/core";
-import {Trans} from "react-i18next";
 
 /**
  *
@@ -31,6 +30,7 @@ const Select = props => {
 
     const {optionId, optionTitle, margin, label, required, helperText, ...selectProps} = props;
 
+
     let items = props.children ? props.children :
 
         ((props.options && props.options.length > 0) ? (
@@ -45,7 +45,7 @@ const Select = props => {
 
     return (
         <FormControl className={props.className} margin={margin}>
-            <InputLabel id={props.id + "-label"}  error={props.error} required={required}><Trans>{label}</Trans></InputLabel>
+            <InputLabel id={props.id + "-label"}  error={props.error} required={required}>{label}</InputLabel>
             <MuiSelect
                 labelId={props.id + "-label"}
                 {...selectProps}

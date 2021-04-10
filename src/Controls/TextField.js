@@ -1,6 +1,5 @@
 import React from 'react';
 import {default as MuiTextField} from "@material-ui/core/TextField";
-import {useTranslation} from "react-i18next";
 
 /**
  * Text Field
@@ -45,9 +44,7 @@ import {useTranslation} from "react-i18next";
 
 const TextField = props => {
 
-    const {label, InputProps, InputLabelProps, ...fldProps} = props;
-
-    const {t} = useTranslation();
+    const {label, InputProps, InputLabelProps, TransOptions, ...fldProps} = props;
 
     return (
         <MuiTextField
@@ -83,7 +80,7 @@ const TextField = props => {
                 }
             }}
 
-            label={t(label)}
+            label={label}
 
             {...fldProps}
         />

@@ -7,7 +7,6 @@ import InputLabel from "@material-ui/core/InputLabel";
 import Visibility from "@material-ui/icons/Visibility";
 import VisibilityOff from "@material-ui/icons/VisibilityOff";
 import {FormHelperText} from "@material-ui/core";
-import {Trans, useTranslation} from "react-i18next";
 
 /**
  * Password Field
@@ -47,8 +46,6 @@ import {Trans, useTranslation} from "react-i18next";
 
 const Password = props => {
 
-    const {t} = useTranslation();
-
     const {className, label, iconLabel, InputLabelProps, margin, helperText, error, ...inputComponentProps} = props;
 
     const [showPassword, setShowPassword] = useState(false);
@@ -77,7 +74,7 @@ const Password = props => {
                             disabled: 'sc-disabled'
                         }}
 
-            ><Trans>{label}</Trans></InputLabel>
+            >{label}</InputLabel>
             <Input
 
                 classes={{
@@ -90,7 +87,7 @@ const Password = props => {
                 endAdornment={
                     <InputAdornment position="end">
                         <IconButton
-                            aria-label={t(iconLabel)}
+                            aria-label={iconLabel}
                             onClick={handleClickShowPassword}
                             onMouseDown={handleMouseDownPassword}
                         >
