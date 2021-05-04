@@ -1,6 +1,7 @@
 [
   "Containers/Grid/Grid",
   "Containers/Grid/GridItem",
+  "Containers/Grid/useMobileView",
 
   "Containers/Alert",
   "Containers/Box",
