@@ -19,7 +19,7 @@ const useAlert = () => {
                     <Alert
                         severity={msg[1]}
                         open={msg[0].length > 0}
-                        onClose={() => setMsg(['', 'error'])}
+                        onClose={() => setMsg(['', msg[1]])}
                     >{msg[0]}</Alert>
                 ),
             error: (message) => setMsg([message, 'error']),
