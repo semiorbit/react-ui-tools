@@ -8,6 +8,7 @@
   "Containers/InlineAlert",
   "Containers/RTL",
   "Containers/Section",
+  "Containers/useAlert",
 
   "Controls/Button",
   "Controls/Checkbox",
