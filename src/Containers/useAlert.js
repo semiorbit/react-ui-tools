@@ -1,5 +1,6 @@
 import React, {useMemo, useState} from 'react';
-import Alert from "@semiorbit/react-ui-tools/Containers/Alert";
+import Alert from "./Alert";
+
 
 const useAlert = () => {
 

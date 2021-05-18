@@ -1,6 +1,7 @@
 import React, {useCallback, useEffect, useState} from 'react';
 import Snackbar from '@material-ui/core/Snackbar';
 import InlineAlert from "./InlineAlert";
+import {isIphoneX} from "@semiorbit/is-iphonex";
 
 
 
@@ -22,7 +23,10 @@ const Alert = props => {
 
 
     return (
-        <Snackbar open={open} autoHideDuration={0} onClose={(e, reason) => handleClose}>
+        <Snackbar open={open}
+                  autoHideDuration={0}
+                  onClose={(e, reason) => handleClose}
+                  style={isIphoneX() ? {bottom: '24px'} : {}}>
             <InlineAlert onClose={handleClose} severity={props.severity}>
                 {props.children}
             </InlineAlert>
