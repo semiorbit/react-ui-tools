@@ -47,6 +47,8 @@ alert.warning(msg) | Build warning message
 alert.info(msg) | Build info message
 alert.success(msg) | Build success message
 alert.show() | Output alert
+alert.set(msg, severity) | Build message and assign severity which is 'success' by default.
+alert.global(msg, severity) | Assign global message that can be displayed in another component.
 
 
 # License

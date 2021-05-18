@@ -26,7 +26,7 @@ const Alert = props => {
         <Snackbar open={open}
                   autoHideDuration={0}
                   onClose={(e, reason) => handleClose}
-                  style={isIphoneX() ? {bottom: '24px'} : {}}>
+                  style={isIphoneX() ? {bottom: '28px'} : {}}>
             <InlineAlert onClose={handleClose} severity={props.severity}>
                 {props.children}
             </InlineAlert>
