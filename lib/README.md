@@ -49,8 +49,9 @@ alert.success(msg) | Build success message
 alert.show() | Output alert
 alert.set(msg, severity) | Build message and assign severity which is 'success' by default.
 alert.global(msg, severity) | Assign global message that can be displayed in another component, by just calling alert.show()
-alert.clearGlobal() | Clear global message 
-
+alert.clearGlobal() | Clear global message
+alert.isClosed() | Boolean. Check if the user closed the alert.
+alert.onClose(handler) | Pass function or event handler to be fired when user closes alert.
 
 # License
 
