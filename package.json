@@ -1,6 +1,6 @@
 {
   "name": "@semiorbit/react-ui-tools",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "React-js Material-ui controls wrapper and other custom controls",
   "main": "index.js",
   "repository": {
@@ -65,11 +65,9 @@
   "peerDependencies": {
     "@mui/material": ">=5.10.11",
     "@semiorbit/is-iphonex": ">=1.0.2",
-    "jss": ">=10.6.0",
-    "jss-rtl": ">=0.3.0",
     "react": ">=18.2.0",
     "react-dom": ">=18.2.0",
     "react-i18next": ">=13.2.2",
-    "@semiorbit/react-form-provider": "^1.1.31"
+    "@semiorbit/react-form-provider": ">=1.1.31"
   }
 }
