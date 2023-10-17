@@ -1,5 +1,5 @@
 import React, {useCallback, useEffect, useState} from 'react';
-import Snackbar from '@material-ui/core/Snackbar';
+import Snackbar from '@mui/material/Snackbar';
 import InlineAlert from "./InlineAlert";
 import {isIphoneX} from "@semiorbit/is-iphonex";
 

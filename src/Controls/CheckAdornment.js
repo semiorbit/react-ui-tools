@@ -1,8 +1,8 @@
 import {ERR_CHECKING_FAILED, IN_PROGRESS, IS_VALID} from "@semiorbit/react-form-provider/validation";
-import InputAdornment from "@material-ui/core/InputAdornment";
-import DoneIcon from "@material-ui/icons/Done";
-import SyncIcon from "@material-ui/icons/Sync";
-import IconButton from "@material-ui/core/IconButton";
+import InputAdornment from "@mui/material/InputAdornment";
+import DoneIcon from "@mui/icons-material/Done";
+import SyncIcon from "@mui/icons-material/Sync";
+import IconButton from "@mui/material/IconButton";
 import React from "react";
 
 export const CheckAdornment = (props) => {
