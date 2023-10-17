@@ -1,6 +1,6 @@
 {
   "name": "@semiorbit/react-ui-tools",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "React-js Material-ui controls wrapper and other custom controls",
   "main": "index.js",
   "repository": {
