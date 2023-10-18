@@ -1,5 +1,5 @@
 import React from 'react';
-import {default as MuiTextField} from "@material-ui/core/TextField";
+import {default as MuiTextField} from "@mui/material/TextField";
 
 /**
  * Text Field

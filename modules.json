@@ -1,21 +1,16 @@
 [
-  "Containers/Grid/Grid",
-  "Containers/Grid/GridItem",
   "Containers/Grid/useMobileView",
-
-  "Containers/Alert",
-  "Containers/Box",
-  "Containers/InlineAlert",
-  "Containers/RTL",
   "Containers/Section",
-  "Containers/useAlert",
+
+  "Alert/Alert",
+  "Alert/InlineAlert",
+  "Alert/useAlert",
 
   "Controls/Button",
   "Controls/Checkbox",
   "Controls/Password",
   "Controls/Select",
   "Controls/TextField",
-
-  "Display/Counter/Counter",
-  "Display/CheckAdornment"
+  "Controls/Counter",
+  "Controls/CheckAdornment"
 ]

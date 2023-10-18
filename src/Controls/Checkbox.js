@@ -1,6 +1,6 @@
 import React from 'react';
-import FormControlLabel from "@material-ui/core/FormControlLabel";
-import {default as MuiCheckbox} from "@material-ui/core/Checkbox";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import {default as MuiCheckbox} from "@mui/material/Checkbox";
 
 
 const Checkbox = props => {
