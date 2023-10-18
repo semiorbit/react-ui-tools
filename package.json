@@ -1,6 +1,6 @@
 {
   "name": "@semiorbit/react-ui-tools",
-  "version": "2.0.18",
+  "version": "2.0.19",
   "description": "React-js Material-ui controls wrapper and other custom controls",
   "main": "index.js",
   "repository": {
@@ -10,7 +10,7 @@
   "author": "Ibrahim Khalil Khalbous",
   "license": "MIT",
   "files": [
-    "./dist/**"
+    "*"
   ],
   "keywords": [
     "Alert",
@@ -19,13 +19,13 @@
     "material-ui"
   ],
   "scripts": {
-    "build": "npm run v && npm i  --legacy-peer-deps --save && rollup -c",
+    "build": "npm run v && npm i && rollup -c",
     "build-watch": "rollup -c -w",
     "start-playground": "cd playground && npm run start",
     "i-all": "npm i && cd playground && npm i",
     "dev": "npm-run-all --parallel build-watch",
     "v": "npm version patch --force && cd dist && npm version patch --force",
-    "publish": "npm publish --access public"
+    "publish": "cd dist && npm publish --access public"
   },
   "eslintConfig": {
     "extends": [
