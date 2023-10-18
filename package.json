@@ -25,7 +25,7 @@
     "i-all": "npm i && cd playground && npm i",
     "dev": "npm-run-all --parallel build-watch",
     "v": "npm version patch --force && cd dist && npm version patch --force",
-    "publish": "cd dist && npm publish --access public"
+    "publish": "npm publish --access public"
   },
   "eslintConfig": {
     "extends": [
