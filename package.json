@@ -1,6 +1,6 @@
 {
   "name": "@semiorbit/react-ui-tools",
-  "version": "2.0.14",
+  "version": "2.0.15",
   "description": "React-js Material-ui controls wrapper and other custom controls",
   "main": "index.js",
   "repository": {
@@ -24,7 +24,7 @@
     "start-playground": "cd playground && npm run start",
     "i-all": "npm i && cd playground && npm i",
     "dev": "npm-run-all --parallel build-watch",
-    "v": "npm version patch --force && cd lib && npm version patch --force",
+    "v": "npm version patch --force && cd dist && npm version patch --force",
     "publish": "npm publish --access public"
   },
   "eslintConfig": {
