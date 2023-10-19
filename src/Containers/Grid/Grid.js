@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {default as MuiGrid} from '@material-ui/core/Grid';
+import {default as MuiGrid} from '@mui/material/Grid';
 
 /**
  * Grid Container

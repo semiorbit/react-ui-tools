@@ -1,6 +1,6 @@
 # Semiorbit React UI Tools
 
-* A collection of wrappers for Material-ui controls [Button, Password, Select, TextField, Checkbox]
+* A collection of wrappers for Material-ui controls [Grid, GridItem, Button, Password, Select, TextField, Checkbox]
 * Custom UI controls [Section, Counter, CheckAdornment]
 
 # useAlert()

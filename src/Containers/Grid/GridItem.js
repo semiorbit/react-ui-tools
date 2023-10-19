@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Grid from '@material-ui/core/Grid';
+import {default as MuiGrid} from '@mui/material/Grid';
 
 /**
  * Grid Container
@@ -13,9 +13,9 @@ import Grid from '@material-ui/core/Grid';
 
 const GridItem = props => {
     return (
-        <Grid item {...props}>
+        <MuiGrid item {...props}>
             {props.children}
-        </Grid>
+        </MuiGrid>
     );
 };
 

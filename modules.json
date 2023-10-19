@@ -1,4 +1,6 @@
 [
+  "Containers/Grid/Grid",
+  "Containers/Grid/GridItem",
   "Containers/Grid/useMobileView",
   "Containers/Section",
 
