@@ -1,6 +1,6 @@
 {
   "name": "@semiorbit/react-ui-tools",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "React-js Material-ui controls wrapper and other custom controls",
   "main": "index.js",
   "repository": {
@@ -46,28 +46,31 @@
     ]
   },
   "devDependencies": {
-    "@rollup/plugin-multi-entry": "^6.0.1",
-    "@testing-library/jest-dom": "^5.11.10",
-    "@testing-library/react": "^11.2.6",
-    "@testing-library/user-event": "^12.8.3",
-    "npm-run-all": "^4.1.5",
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.0",
     "@babel/preset-env": "^7.22.20",
     "@babel/preset-react": "^7.22.15",
     "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-multi-entry": "^6.0.1",
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "npm-run-all": "^4.1.5",
     "react-scripts": "5.0.1",
     "rollup": "^3.29.4",
     "rollup-plugin-delete": "^2.0.0",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
-    "babel-plugin-module-resolver": "^5.0.0"
+    "rollup-plugin-peer-deps-external": "^2.2.4"
   },
   "peerDependencies": {
-    "@mui/material": ">=5.10.11",
+    "@mui/material": "^5.14.14",
     "@semiorbit/is-iphonex": ">=1.0.2",
+    "@semiorbit/react-form-provider": ">=1.1.31",
     "react": ">=18.2.0",
     "react-dom": ">=18.2.0",
     "react-i18next": ">=13.2.2",
-    "@semiorbit/react-form-provider": ">=1.1.31"
+    "@emotion/react": ">=11.11.1",
+    "@emotion/styled": ">=11.11.0",
+    "@mui/icons-material": ">=5.14.14"
   }
 }
