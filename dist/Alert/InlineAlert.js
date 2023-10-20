@@ -16,11 +16,12 @@ function _extends() {
   return _extends.apply(this, arguments);
 }
 
-var InlineAlert = function InlineAlert(props) {
+var InlineAlert = /*#__PURE__*/React.forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(MuiAlert, _extends({
     elevation: 6,
-    variant: "filled"
+    variant: "filled",
+    ref: ref
   }, props));
-};
+});
 
 export { InlineAlert as default };

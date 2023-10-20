@@ -67,12 +67,13 @@ function _nonIterableRest() {
   throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
 }
 
-var InlineAlert = function InlineAlert(props) {
+var InlineAlert = /*#__PURE__*/React.forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(MuiAlert, _extends({
     elevation: 6,
-    variant: "filled"
+    variant: "filled",
+    ref: ref
   }, props));
-};
+});
 
 var Alert = function Alert(props) {
   var _useState = useState(false),
